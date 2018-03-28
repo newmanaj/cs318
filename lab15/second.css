@@ -1,0 +1,42 @@
+body{
+    background-image: url("http://www.dundjinni.com/forums/uploads/Ravenbow/49E_BrickRound70_CG_bg-a.png");
+    background-repeat: repeat;
+}
+
+h1 {
+    color: orange
+}
+
+p {
+    color: white;
+
+}
+
+.navigation {
+    background-color: goldenrod;
+    border-radius: 10px;
+    padding: 10px;
+    width: 125px;
+    float: right;
+    box-shadow: 0px 0px 15px 5px goldenrod;
+
+}
+
+img {
+    
+    position: absolute;
+    bottom: -10%;
+    width: 100%;
+      
+    
+
+}
+
+   .yellowbox{
+       border-width: 0px 0px 0px 8px;
+       border-color: goldenrod;
+       border-style: solid;
+       border-radius: 10px;
+       padding-left: 10px;
+   }
+
