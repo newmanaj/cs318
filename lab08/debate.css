@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0px;
+}
+
+.blurb {
+    width: 90%;
+   filter: drop-shadow(10px 10px 4px gray);
+   font-family: 'Oxygen', sans-serif;
+   border: 1px;
+   border-style: solid; 
+   min-height: 202px; 
+   min-width: 400px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+#left {
+    background-color: palevioletred; 
+    margin-right: auto;
+    background-image: url(AbeLincoln.jpg);
+    background-position: left; 
+    background-repeat: no-repeat; 
+    background-size: auto 200px;
+    padding-left: 350px;
+    padding-right: 30px;
+    padding-top: 5px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+#right {
+    background-color: aqua; 
+    margin-left: auto;
+    background-image: url(GeorgeWashington.jpg);
+    background-position: right; 
+    background-repeat: no-repeat; 
+    background-size: auto 200px;
+    padding-right: 160px;
+    padding-left: 55px;
+    padding-top: 5px; 
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+
+h1 {
+    background-image: linear-gradient(to right, aqua, palevioletred);
+    box-shadow: inset 0px -20px 20px -20px white;
+    text-align: center;
+}
+
+#best {
+    color: palevioletred;
+}
+
+#frenemies {
+    color: aqua; 
+}

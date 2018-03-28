@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: lightgray; 
+}
+
+.stamp {
+    display: inline-block;
+    height: 300px;
+    width: 300px; 
+    margin: 10px;
+    border: green; 
+    border-style: dashed;
+    border-width: 4px; 
+    padding: 10px;
+}
+
+div { 
+    box-shadow: 10px 10px 5px;
+}
+
+#Poland {
+    background-image: url(poland_f.png), url(Poland.jpg);
+    background-position: top right, center; 
+    background-repeat: no-repeat, no-repeat; 
+    background-size: 50px 50px, auto 300px; 
+}
+
+#Germany {
+    background-image: url(germany_f.png), url(Germany.jpg);
+    background-position: top right, center; 
+    background-repeat: no-repeat, no-repeat; 
+    background-size: 50px 50px, auto 300px; 
+}
+
+#Switzerland {
+    background-image: url(switzerland_f.png), url(Switzerland.jpg);
+    background-position: top right, center; 
+    background-repeat: no-repeat, no-repeat; 
+    background-size: 50px 50px, auto 300px;  
+}
+
+#Italy {
+    background-image: url(italy_f.png), url(Italy.jpg);
+    background-position: top right, center; 
+    background-repeat: no-repeat, no-repeat; 
+    background-size: 50px 50px, auto 300px; 
+}

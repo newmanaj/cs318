@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: bisque; 
+}
+
+#panel {
+    position: fixed;
+    top: 50px;
+    bottom: 50px; 
+    left: 50px;
+    right: 50px; 
+    box-shadow: 0 0 10px
+}
+
+#picture {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.buttons {
+position: fixed;
+top: 50%;
+height: 50px;
+width: 50px;
+cursor: pointer;
+}
+
+#right {
+   right: 2px;
+}
+
+#left {
+    left: 2px;
+}
+

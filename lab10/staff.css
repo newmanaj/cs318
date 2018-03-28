@@ -1,0 +1,67 @@
+* { 
+    box-sizing: border-box;
+}
+
+#Chen {
+
+    background-image: url(chen.jpg);
+    background-repeat: no-repeat; 
+    border-radius: 50%;
+
+}
+
+#Sulzer {
+
+    background-image: url(Sulzer.jpg);
+    background-repeat: no-repeat; 
+    border-radius: 50%;
+
+}
+
+#Hilton {
+
+    background-image: url(Hilton.jpg);
+    background-repeat: no-repeat; 
+    border-radius: 50%;
+
+}
+
+#Pratt {
+
+    background-image: url(Pratt.jpg);
+    background-repeat: no-repeat; 
+    border-radius: 50%;
+  
+}
+
+.photo {
+ display: inline-block;   
+height: 200px;
+width: 200px;
+background-size: 100%;
+margin: 20px;
+filter: drop-shadow(10px 10px 4px grey);
+position: relative;
+}
+
+.photo:hover {
+    filter: drop-shadow(1px 1px 1px black);
+    top: 5px; 
+    left: 5px;
+}
+
+
+.name {
+    font-size: 36pt;
+    font-family: sans-serif;
+    color: yellowgreen;
+    text-shadow: 2px 2px black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -15%;
+    text-align: center;
+
+}
+
+

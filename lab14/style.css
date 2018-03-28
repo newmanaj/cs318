@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+.full {
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+height: 100vh; 
+width: 100vw;
+}
+
+#quoka1 {
+    background-image: url("https://resources.stuff.co.nz/content/dam/images/1/h/i/b/6/6/image.related.StuffLandscapeSixteenByNine.620x349.1hi9ua.png/1488230773446.jpg");
+    background-repeat: no-repeat; 
+
+}
+
+#navigation {
+    text-align: center;
+    font-size: 24pt; 
+    background-color: aqua;
+    margin: 0; 
+    padding: 10px; 
+    border-radius: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36pt;
+    background-color: rgb(255, 61, 47);
+    margin: 0; 
+    padding: 10px; 
+    border-radius: 30px; 
+    border-style: solid;
+    border-width: 50px 0 50px 0; 
+    border-color: black; 
+}
+
+    p {
+    text-align: center;
+    font-size: 18pt; 
+}
+
+#navigation a {
+  color: blue; 
+  
+}
+
+a:hover {
+    color: rgb(202, 72, 122);
+}
+
+
+#habitat {
+    background-image: url("quokka_bike.jpg");
+    background-repeat: no-repeat; 
+    
+}
+
+#panel {
+    position: relative;
+    top: 50px;
+    bottom: 50px; 
+    left: 50px;
+    right: 50px; 
+    box-shadow: 0 0 10px
+}
+
+#picture {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.buttons {
+position: absolute;
+top: 50%;
+height: 50px;
+width: 50px;
+cursor: pointer;
+}
+
+#right {
+   right: 2px;
+}
+
+#left {
+    left: 2px;
+}
+
+#pics {
+    margin-top: 100px;
+}
+
+
+#diet {
+    background-image: url("leaf.jpg");
+    background-repeat: no-repeat; 
+    
+}
+
+#one {
+    float: left; 
+    margin-left: 200px; 
+}
+
+#two {
+    float: right;
+    width: 300px; 
+    margin-right: 200px; 
+}
+
+
+#shadow {
+    background-color: white; 
+    border-style: solid;
+    border-color: navy; 
+    border-width: 30px; 
+    height: 200px;
+    width: 200px; 
+    position: absolute; 
+}
+
+#square {
+    background-color: maroon; 
+    height: 100px;
+    width: 100px; 
+    margin-top: 75px; 
+    margin-left: 75px; 
+    position: relative; 
+}
+

@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FF7D3C;
+    width: 600px;
+    align-content: center;
+
+}
+
+nav {
+    float: left;
+    background-color: #E8210A;
+padding-bottom: 175%;
+padding-right: 20px;
+   }
+
+a {
+    color: aliceblue;
+}
+
+ul {
+    list-style: none; 
+}
+
+
+footer {
+    clear: both;
+    margin-left: 150px; 
+}
+
+main {
+    margin-left: 150px;
+
+}
+
+#order {
+background-image: url(pizza.png);
+background-position: right; 
+background-repeat: no-repeat; 
+background-size: auto 100px;
+height: 100px;
+width: 100px;
+position: fixed;
+top: 0;
+right: 0;
+}
+
+.name {
+    font-size: 24pt;
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 1px 1px red;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top:10%;
+    text-align: center;
+}
+
+#box {
+    position: relative;
+    text-align: center;
+}
+
+#outline {
+    box-shadow: 0 0 20px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pizza {
+    height: 200px;
+    width: 250px;
+    align-content: center;
+    position: absolute;
+}
+
+#sausage {
+
+    float: left;
+    padding-right: 10px; 
+    width: 300px; 
+    height: 225px;
+}
+
+#cheese {
+
+    float: right;
+    width: 300px; 
+    height: 225px;
+}
+
+#pepperoni {
+
+    float: left;
+    padding-right: 10px; 
+    width: 300px; 
+    height: 225px;
+}
+
+iframe {
+    height: 400px; 
+    width: 400px;
+}

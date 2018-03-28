@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;  
+}
+
+h2 {
+    color: white;
+}
+
+ul {
+    color: white
+}
+
+.list {
+    height: 10px;
+    width: 50px;
+
+}
+
+#red {
+    background-color: red;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+.shape {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+
+#square {
+    margin-bottom: 10px;
+
+}
+
+#circle {
+    border-radius: 50%
+}
+
+.box {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(53, 52, 52);
+}
+
+ol {
+    color: white;
+}
+
+#one {
+    border-top-color: lightgray;
+}
+
+#two { 
+    border-top-color: lightgrey;
+    border-bottom-color: lightgray;
+}
+
+#three {
+    border-top-color: lightgray;
+    border-bottom-color: lightgray;
+    border-right-color: lightgray;
+}
+
+#four {
+    border-color: lightgray;
+}
