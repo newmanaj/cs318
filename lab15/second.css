@@ -1,6 +1,7 @@
 body{
     background-image: url("http://www.dundjinni.com/forums/uploads/Ravenbow/49E_BrickRound70_CG_bg-a.png");
     background-repeat: repeat;
+    margin-bottom: 35%;
 }
 
 h1 {
@@ -23,12 +24,12 @@ p {
 }
 
 img {
-    
-    position: absolute;
-    bottom: -10%;
-    width: 100%;
-      
-    
+
+width: 100%;
+position: fixed;
+bottom: 0;
+;
+
 
 }
 
