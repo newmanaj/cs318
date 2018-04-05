@@ -4,11 +4,25 @@
 
 body {
     background-color: #d4e3fc;
- 
+    margin: 0;
 }
 
 main {
     margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+heading {
+    font-family: "Martel", serif;
+    font-size: 12pt;
+}
+
+.logo {
+    height: 75px;
+    width: 100px;
+    position: absolute;
 }
 
 .heading {
@@ -16,7 +30,7 @@ main {
     width: 100%;
     top: 0;
     right: 0;
-    height: 75px;
+    height: 75px;   
 }
 
 .heading ul {
@@ -24,12 +38,18 @@ main {
     list-style-type: none;
     position: absolute;
     right: 20px;
-    top: 20px;
     text-align: right;
-
+    font-size: 11pt;
 }
 
+.heading ul a{
+    text-decoration: none;
+    color: white;
+}
 
+.heading li {
+    padding: 5px;
+}
 .computer {
     padding: 15px;
     text-align: center;
@@ -37,74 +57,101 @@ main {
     width: 100%;
     height: 50px;
     box-shadow: 1px 1px 60px -10px;
-
+    list-style-type: none;
+    margin: 0;
 }
 
 .computer a {
     color: white;
     text-align: center;
-    padding: 15px 18px 16px 18px;
-    text-decoration: none;
- font-size: 13pt;
-    
-
+    text-decoration: none;    
 }
 
-.computer a:hover {
+.computer li {
+    display: inline;
+    padding: 15px 10px 8.5px 10px;    
+}
+
+.computer li:hover {
     background-color: #517ec9;
 }
 
-
 p {
     color: #0b2754;
-    width: 800px;
-}
-footer {
-    text-align: center;
-    margin: 100px 10px 10px 10px;
-    color: #0b2754;
-    
+    width: 800px;   
 }
 
+footer {
+    text-align: center;
+    margin: 100px auto 10px auto;
+    color: #0b2754;
+    clear: both;
+    width: 800px;   
+}
 
 .mobile {
     display: none;
 }
 
-
 h1{
     color: #0b2754;
     text-align: center;
-
-}
-
-.line {
-    width: 75%;
-    height: 5px;
-    background-color: #0b2754;
-    display: block;
-    margin: auto;
-}
-
-.image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 h3 {
     color:  #0b2754;
 }
 
+.line {
+    width: 800px;
+    height: 4px;
+    background-color: #0b2754;
+    display: block;
+    margin: auto;    
+}
+
+ .line2 {
+    clear: both;
+    background-color: lightgray;
+    height: 1px;
+    width: 85%;
+    display: block;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photogallery img {
+    margin: 20px auto 20px auto;
+}
+
 .lots{
     border: 2px solid black;
     width: 800px;
-    Height: 300px;
-   
+    Height: 304px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;  
+}
+
+.text {
+    width: 50%;
+    text-align: center;
 }
 
 .lotmap {
-    height: 300px;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .moreinfo {
@@ -118,9 +165,39 @@ h3 {
     background-color: grey;
 }
 
-@media (max-width: 600px){
+.map {
+
+    float: right;
+    margin: 10px;
+}
+
+@media (max-width: 800px){
+    main {
+        width: 95%;
+        margin: auto;
+    }
+    
+    footer {
+        width: 95%;
+    }
+
+    p {
+        width: 95%;
+        margin: auto;
+    }
+
+    img { 
+        width:95%;
+        margin: auto;
+    }
+
     .computer {
         display: none;
+    }
+
+    .line {
+        width: 95%;
+        margin: auto;
     }
     
     .mobile {
@@ -131,7 +208,7 @@ h3 {
       }
       
 
-      .mobile a {
+    .mobile a {
        
         font-size: 16px;
         color: white;
@@ -140,13 +217,12 @@ h3 {
         text-decoration: none;
       }
       
-      .dropdown {
+    .dropdown {
         
         overflow: hidden;
       }
       
-
- .dropbutton {
+    .dropbutton {
         font-size: 16px; 
         border: none;
         outline: none;
@@ -156,15 +232,13 @@ h3 {
         font-family: inherit; 
         margin: 0;
         width: 100%;
-
       }
       
-      
-      .mobile a:hover, .dropdown:hover .dropbutton {
+    .mobile a:hover, .dropdown:hover .dropbutton {
         background-color: #517ec9 ;
       }
       
-      .dropdowncontent {
+    .dropdowncontent {
         display: none;
         position: absolute;
         background-color: #0b2754;
