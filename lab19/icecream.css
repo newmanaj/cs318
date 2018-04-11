@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box
+}
+
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+    width: 350px;
+}
+
+label {
+   width: 350px;
+    padding: 5px 0 5px 0;
+
+}
+
+input {
+
+    width: 100px;
+}
+
+select {
+
+  width: 100px;
+}
+
+#submit {
+    background-color: lightgrey;
+    outline: none;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+   
+}
+
+form {
+    font-size: 14pt;
+}
+
+span {
+    width: 100px;
+    text-align: right;
+}
+
+

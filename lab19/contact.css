@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    background-color: lightgray;
+    width: 330px;
+    font-size: 15pt;
+    
+}
+
+label {
+    display: block;
+    padding: 5px 0 5px 0;
+}
+
+input {
+    font-size: 15pt;
+    border: none;
+}
+
+input:focus {
+    outline: 3pt solid skyblue;
+
+}
+
+#textarea {
+    font-size: 15pt;
+    width: 330px;
+    height: 200px;
+    border-color: 1px solid grey;
+}
+
+#submit {
+    margin: 5px 0 5px 0;
+    background-color: blue;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 70px;
+    color: white;
+}
+
+form {
+    text-align: right;
+}
