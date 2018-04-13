@@ -59,6 +59,7 @@ heading {
     box-shadow: 1px 1px 60px -10px;
     list-style-type: none;
     margin: 0;
+    position: sticky;
 }
 
 .computer a {
