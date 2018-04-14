@@ -9,31 +9,39 @@ h1 {
 
 body {
     background-color: lightblue;
-    width: 350px;
+    width: 600px;
 }
 
 label {
-   width: 350px;
+   width: 610px;
     padding: 5px 0 5px 0;
+    display: inline-block;
 
 }
 
+div {
+    float: left;
+    width: 200px;
+    text-align: right;
+    padding-right: 5px;
+}
 input {
-
-    width: 100px;
+float: clear;
+    width: 400px;
 }
 
 select {
-
-  width: 100px;
+float: clear;
+  width: 400px;
 }
 
 #submit {
-    background-color: lightgrey;
+    background-color: white;
     outline: none;
     border: 1px solid lightgrey;
-    border-radius: 2px;
-   
+    border-radius: 3px;
+    width: 55px;
+   margin-left: 200px;
 }
 
 form {
@@ -44,5 +52,4 @@ span {
     width: 100px;
     text-align: right;
 }
-
 
