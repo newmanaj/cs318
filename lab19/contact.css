@@ -28,7 +28,7 @@ input:focus {
     font-size: 15pt;
     width: 330px;
     height: 200px;
-    border-color: 1px solid grey;
+    border: 1px solid grey;
 }
 
 #submit {
