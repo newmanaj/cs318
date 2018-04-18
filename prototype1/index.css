@@ -183,28 +183,28 @@ img {
     background-color: #d4e3fc;  
 }
 
-.contactinfo {
-    color: #0b2754;
-    font-size: 14pt;   
-    width: 50%;
-    height: 100%;
+.contactinfoleft {
+     float: left;
+   
+}  
 
-}   
+contactinforight {
+    float: right;
+}
 
-
-.contactinfo li {
+.contactinforight li {
     list-style-type: none;
-    padding: 8%;
-}
+    padding: 5px 0px 5px 0;
+    
+  }
 
-.contactinfo a {
-    color: #0b2754;
-    text-decoration: none;
-
-}
+  .contactinforight {
+    text-align: center;
+  }
 
 .opening {
     margin: 20px 0px 20px 0px;
+    font-size: 14pt;
 }
 
 
@@ -233,6 +233,62 @@ img {
         height: 300px;
         position: absolute;
     }
+
+    
+    form {
+        text-align: center;
+        width: 350px;
+        font-size: 14pt;
+        float: left;
+    }
+
+
+    label {
+        display: block;
+        padding: 5px 0 5px 0;
+        width: 350px;
+        font-size: 14pt;
+
+    }
+    
+    input {
+        border: none;
+        width: 290px;
+        font-size: 14pt;
+
+    }
+    
+    input:focus {
+        outline: 1pt solid #0b2754;
+    
+    }
+    
+    #textarea {
+        width: 350px;
+        height: 200px;
+        border: 1px solid grey;
+        font-family: "Martel", serif;
+        border: none;
+        margin-top: 10px;
+        font-size: 12pt;
+    }
+    
+    #textarea:focus {
+        outline: 1pt soild #0b2754;
+    }
+
+    #submit {
+        margin: 5px 0 5px 0;
+        background-color: #517ec9;
+        margin-top: 10px;
+        border: none;
+        outline: none;
+        height: 30px;
+        width: 350px;
+        color: white;
+        
+    }
+  
 
 @media (max-width: 800px){
     main {
