@@ -15,8 +15,12 @@
       <img class="logo" src="bruncliklogo.jpg">
     </a>
     <ul>
-      <li><a href="tel:1-715-755-3377"> 715-755-3377 </a></li>
-      <li><a href="mailto:email@email.com?subject=Inquiry from Website">Email@email.com</a></li>
+      <li>
+        <a href="tel:1-715-755-3377"> 715-755-3377 </a>
+      </li>
+      <li>
+        <a href="mailto:email@email.com?subject=Inquiry from Website">Email@email.com</a>
+      </li>
     </ul>
   </div>
 
@@ -74,28 +78,81 @@
 
 <body>
   <main class="photogallery">
+ 
     <h1>Photo Gallery</h1>
     <div class="line"></div>
+  
 
-   
-    <div id="panel">
+    <div class="container">
 
-        <img class="buttons" id="left" src="https://openclipart.org/download/2209/kuba-arrow-button-set-1.svg" alt="left button">
+      <div class="slides">
+        <div class="number"> 1/6 </div>
+      <img src="bruncliklogo.jpg">
+    </div>
+
+    <div class="slides">
+      <div class="number"> 2/6 </div>
+    <img src="bruncliklogo.jpg">
+    </div>
+
+    <div class="slides">
+      <div class="number"> 3/6 </div>
+    <img src="bruncliklogo.jpg">
+    </div>
+
+    <div class="slides">
+      <div class="number"> 4/6 </div>
+    <img src="bruncliklogo.jpg">
+    </div>
+
+    <div class="slides">
+      <div class="number"> 5/6 </div>
+    <img src="bruncliklogo.jpg">
+    </div>
+
+    <div class="slides">
+      <div class="number"> 6/6 </div>
+    <img src="bruncliklogo.jpg">
+    </div>
+
+    <!--buttons -->
+
+    <a class="back" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
 
 
-        <img id="slideshowimage" src="https://goo.gl/images/3iNwGp"
-            alt="Quokka">
-   
+    <!-- thumbnails -->
 
-    <img class="buttons" id="right" src="https://openclipart.org/download/2210/kuba-arrow-button-set-2.svg" alt="right button">
+    <div class="row">
+      <div class="column">
+        <img class="thumbnail" src="bruncliklogo.jpg" style="width:100%" onclick="currentSlide(1)" alt="GaryBrunclik">
 
-   
-  </div>
+      </div>
 
-   
+      <div class="column">
+        <img class="thumbnail" src="bruncliklogo.jpg" style="width:100%" onclick="currentSlide(2)" alt="GaryBrunclik">
 
-    
+      </div>
+      <div class="column">
+        <img class="thumbnail" src="bruncliklogo.jpg" style="width:100%" onclick="currentSlide(3)" alt="GaryBrunclik">
+
+      </div>
+      <div class="column">
+        <img class="thumbnail" src="bruncliklogo.jpg" style="width:100%" onclick="currentSlide(4)" alt="GaryBrunclik">
+
+      </div>
+      <div class="column">
+        <img class="thumbnail" src="bruncliklogo.jpg" style="width:100%" onclick="currentSlide(5)" alt="GaryBrunclik">
+
+      </div>
+      <div class="column">
+        <img class="thumbnail" src="bruncliklogo.jpg" style="width:100%" onclick="currentSlide(6)" alt="GaryBrunclik">
+
+      </div>
+    </div>
+    </div>
+
 
     <script src="slideshow.js"></script>
   </main>

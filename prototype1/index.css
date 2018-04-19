@@ -19,10 +19,12 @@ heading {
     font-size: 12pt;
 }
 
+
 .logo {
     height: 75px;
     width: 100px;
-    position: absolute;
+    
+    
 }
 
 .heading {
@@ -31,6 +33,16 @@ heading {
     top: 0;
     right: 0;
     height: 75px;   
+    position: relative;
+}
+
+ .heading div {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 110px;
+    bottom: 0;
+    font-size: 18pt;
 }
 
 .heading ul {
@@ -40,7 +52,8 @@ heading {
     right: 20px;
     text-align: right;
     font-size: 11pt;
-}
+} 
+
 
 .heading ul a{
     text-decoration: none;
@@ -49,6 +62,7 @@ heading {
 
 .heading li {
     padding: 5px;
+    display: inline;
 }
 .computer {
     padding: 15px;
@@ -120,7 +134,7 @@ h3 {
     margin: auto;
 }
 
-img {
+.image {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -207,33 +221,6 @@ contactinforight {
     font-size: 14pt;
 }
 
-
-
-.buttons {
-    top: 400px;
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
-   
-    }
-    
-    #right {
-     
-
-        
-    }
-    
-    #left {
-        position: absolute;
-       
-    }
-
-    .slideshowimage {
-        width: 500px;
-        height: 300px;
-        position: absolute;
-    }
-
     
     form {
         text-align: center;
@@ -258,10 +245,7 @@ contactinforight {
 
     }
     
-    input:focus {
-        outline: 1pt solid #0b2754;
-    
-    }
+    i
     
     #textarea {
         width: 350px;
@@ -272,10 +256,7 @@ contactinforight {
         margin-top: 10px;
         font-size: 12pt;
     }
-    
-    #textarea:focus {
-        outline: 1pt soild #0b2754;
-    }
+ 
 
     #submit {
         margin: 5px 0 5px 0;
@@ -286,9 +267,80 @@ contactinforight {
         height: 30px;
         width: 350px;
         color: white;
-        
+    }       
+
+
+.container {
+    position: relative;
+    width: 700px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.slides {
+    display: none;
+   
+}
+
+.slides img {
+    width: 100%;
+}
+
+.back, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    width: auto;
+    padding: 16px;
+    margin-top: 150px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.back:hover, .next:hover {
+    background-color: rgba(0,0,0, 0.8);
+    color: white;
     }
-  
+
+.number {
+    color: #0b2754;
+    font-size: 12pt;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 110px;
+    left: 47%
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+    .column {
+        float: left;
+        width: 16.66%;
+    }
+
+    .thumbnail {
+        opacity: .6;
+            }
+
+.active, .thumbnail:hover {
+    opacity: 1
+}
+    
 
 @media (max-width: 800px){
     main {
