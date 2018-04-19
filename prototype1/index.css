@@ -17,53 +17,50 @@ main {
 heading {
     font-family: "Martel", serif;
     font-size: 12pt;
+
 }
 
 
 .logo {
-    height: 75px;
-    width: 100px;
-    
-    
+    height: 80px;
+    width: 350px; 
+    margin-left: auto;
+    margin-right: auto;   
+    display: block; 
+  
 }
 
 .heading {
     background-color: #517ec9;
     width: 100%;
-    top: 0;
-    right: 0;
-    height: 75px;   
+    height: 90px;   
     position: relative;
+    top: 0;
 }
 
- .heading div {
-    color: white;
-    text-decoration: none;
+.email {
     position: absolute;
-    left: 110px;
+left: 0;
+bottom: 0;
+padding-left: 10px;
+
+}
+
+.phone {
+    position: absolute;
+    right: 0;
     bottom: 0;
-    font-size: 18pt;
+    padding-right: 10px;
+  
 }
 
-.heading ul {
-    color: white;
-    list-style-type: none;
-    position: absolute;
-    right: 20px;
-    text-align: right;
-    font-size: 11pt;
-} 
 
-
-.heading ul a{
+.heading a {
     text-decoration: none;
     color: white;
 }
 
-.heading li {
-    padding: 5px;
-    display: inline;
-}
+
 .computer {
     padding: 15px;
     text-align: center;
@@ -72,8 +69,7 @@ heading {
     height: 50px;
     box-shadow: 1px 1px 60px -10px;
     list-style-type: none;
-    margin: 0;
-    position: sticky;
+    margin: 0 auto 0 auto;
 }
 
 .computer a {
@@ -245,7 +241,6 @@ contactinforight {
 
     }
     
-    i
     
     #textarea {
         width: 350px;
