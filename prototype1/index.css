@@ -12,6 +12,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     width: 800px;
+    color: #0b2754;
 }
 
 heading {
@@ -27,7 +28,7 @@ heading {
     margin-left: auto;
     margin-right: auto;   
     display: block; 
-  
+   
 }
 
 .heading {
@@ -40,17 +41,17 @@ heading {
 
 .email {
     position: absolute;
-left: 0;
-bottom: 0;
-padding-left: 20px;
+right: 10%;
+bottom: 20px;
+
 
 }
 
 .phone {
     position: absolute;
-    right: 0;
-    bottom: 0;
-    padding-right: 20px;
+    left: 10%;
+    bottom: 20px;
+    
   
 }
 
@@ -107,7 +108,7 @@ footer {
 h1{
     color: #0b2754;
     text-align: center;
-}
+    }
 
 h3 {
     color:  #0b2754;
@@ -433,4 +434,11 @@ h3 {
       .dropdown:hover .dropdowncontent {
         display: block;
       }
-}
+
+      .container{
+          width: 100%;
+      }
+
+
+      
+    }
