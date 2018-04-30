@@ -5,7 +5,7 @@
 body {
     background-color: #dfeafc;
     margin: 0;
-    min-height: 100vh;
+     
 }
 
 main {
@@ -14,9 +14,18 @@ main {
     margin-right: auto;
     width: 800px;
     color: #0b2754;
+    min-height: 75vh;
 }
 
-/* Goes header and navigation */
+footer {
+    text-align: center;
+    margin: 10px auto 10px auto;
+    color: #0b2754;
+    clear: both;
+    width: 800px;   
+}
+
+/* Goes with header and navigation */
 
 
 .heading {
@@ -91,13 +100,7 @@ p {
     width: 800px;   
 }
 
-footer {
-    text-align: center;
-    margin: 100px auto 10px auto;
-    color: #0b2754;
-    clear: both;
-    width: 800px;   
-}
+
 
 .mobile {
     display: none;
@@ -139,6 +142,9 @@ h3 {
     margin: 20px auto 20px auto;
 }
 
+
+/* For sale */
+
 .lots{
     border: 2px solid black;
     width: 800px;
@@ -151,8 +157,14 @@ h3 {
 }
 
 .text {
+    position: absolute;
     width: 50%;
-    text-align: center;
+    padding: 10px;
+   
+}
+
+.text p {
+    width: 100%;
 }
 
 .lotmap {
@@ -175,14 +187,9 @@ h3 {
     background-color: grey;
 }
 
-.map {
 
-    float: right;
-    margin: 10px;
-}
 
 /* Contact  */
-
 
 
 .contactinfoleft {
@@ -441,12 +448,6 @@ h3 {
       .dropdown:hover .dropdowncontent {
         display: block;
       }
-
-/* Developments */
-
-.map {
-    width: 50%;
-}
 
 /* Photo Gallery */
 
