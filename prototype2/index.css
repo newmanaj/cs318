@@ -51,14 +51,15 @@ footer {
 
 .email {
     position: absolute;
-right: 10%;
+left: 10px;
 bottom: 20px;
 }
 
 .phone {
     position: absolute;
-    left: 10%;
     bottom: 20px;
+    right: 10px;
+
 }
 
 
@@ -97,7 +98,10 @@ bottom: 20px;
 
 p {
     color: #0b2754;
-    width: 800px;   
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
 }
 
 
@@ -109,33 +113,34 @@ p {
 h1{
     color: #0b2754;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border-bottom: 4px solid #0b2754;
+    padding: 30px 0px 20px 0px;
     }
+
+h2 {
+color: #0b2754;
+margin-left: auto;
+margin-right: auto;
+width: 800px;
+}
 
 h3 {
     color:  #0b2754;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
 }
 
-.line {
-    width: 100%;
-    height: 4px;
-    background-color: #0b2754;
-    display: block;
-    margin: auto;    
-}
-
- .line2 {
-    clear: both;
-    background-color: lightgray;
-    height: 1px;
-    width: 85%;
-    display: block;
-    margin: auto;
-}
+/* Homepage */
 
 .image {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 800px;
 }
 
 .photogallery img {
@@ -286,7 +291,7 @@ h3 {
     /* Photo Gallery */
 .container {
    position: relative;
-    width: 700px;
+    width: 800px;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -333,7 +338,7 @@ h3 {
     font-size: 12pt;
     padding: 8px 12px;
     position: absolute;
-    bottom: 110px;
+    bottom: 255px;
     left: 47%
 }
 
@@ -350,6 +355,8 @@ h3 {
 
     .thumbnail {
         opacity: .7;
+        height: 90px;
+        width: 90px;
             }
 
 .active, .thumbnail:hover {
@@ -357,7 +364,15 @@ h3 {
 }
     
 
-@media (max-width: 800px){
+/* Testimonials */
+
+.testimonials p {
+    border-bottom: 1px solid lightgray; 
+    padding: 0px 0px 20px 0px;
+}
+
+
+@media (max-width: 855px){
     main {
         width: 95%;
         margin: auto;
@@ -372,6 +387,18 @@ h3 {
     img { 
         width:95%;
         margin: auto;
+    }
+
+    h1 {
+        width: 100%;
+    }
+
+    h2 { 
+        width: 100%;
+    }
+
+    h3 {
+        width: 100%;
     }
     
 
@@ -417,7 +444,7 @@ h3 {
         outline: none;
         color: white;
         padding: 14px 16px;
-        background-color: inherit;
+        background-color: #0b2754;
         font-family: inherit; 
         margin: 0;
         width: 100%;
