@@ -1,0 +1,427 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: goldenrod;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'UnifrakturCook', cursive;
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+}
+
+
+
+/* nav {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    background-color: #cd0000;
+} */
+
+nav {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    background-color: #cd0000;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#navbackground {
+    background-color: #cd0000;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+div {
+    display: inline-block;
+    position: relative;
+}
+
+
+.nav {
+    display: block;
+    margin-right: auto; 
+    margin-left: auto;
+    width: 100%;
+    align-content: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20pt;
+    font-family: 'PT Sans', sans-serif;
+ }
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+ }
+
+ #header {
+    color: goldenrod;
+}
+
+ul {
+    padding:0;
+}
+
+li {
+    list-style: none;
+}
+
+
+event a {
+    display: block; 
+    padding: 5px 5px;
+    text-align: left;
+    cursor: pointer;
+}
+
+
+main {
+    min-width:75vh;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+#aboutus {
+    font-family: 'UnifrakturCook', cursive;  
+    margin-left: 20px;
+    padding-left:0; 
+    font-size: 30pt;
+}
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14pt;
+}
+
+label {
+    font-family: 'PT Sans', sans-serif;
+}
+
+footer {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* @media (max-width: 600px) {
+    nav {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin: 0;
+        padding: 10px;
+        height: 100%;
+        width: 400px;
+        align-content: center;
+    }
+main {
+    width: calc(100% - 300px);
+    margin: 0;
+}
+} */
+
+
+#mobile {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    nav {
+        float: left;
+        display: block;
+        /* margin-right: auto;
+        margin-left: auto; */
+        margin: 0;
+        background-color: #cd0000;
+        font-family: 'PT Sans', sans-serif;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        font-size: 20pt;
+    }
+
+    #navbackground {
+        display: none;
+    }
+
+    #mobile {
+        display: inline-block;
+       background-color: #cd0000;
+       width: 100%;
+       text-align: center;
+    }
+
+main {
+    width: calc(100% - 300px);
+    margin: 0;
+}
+
+
+
+
+}
+
+
+
+/* INDEX PAGE */
+#index {
+    text-align: center;
+
+}
+
+/* PRESIDENTS PAGE */
+
+
+.bio {
+    width: 90%;
+    min-width: 400px;
+    margin-left: 20px;
+    font-family: "PT", sans-serif;
+}
+
+#presidentsheader h2 {
+    font-family: 'UnifrakturCook', cursive;  
+    margin-left: 20px;
+    padding-left:0; 
+    font-size: 30pt;
+}
+
+    #hannah {
+        margin-right: auto;
+        background-image: url(images/hannah.jpg);
+        background-position: left; 
+        background-repeat: no-repeat; 
+        background-size: auto 150px;
+        padding-left: 175px;
+        padding-right: 50px;
+    }
+
+    #hannah h2 {
+        font-family: 'UnifrakturCook', cursive;
+    }
+    
+    #kanu {
+        margin-right: auto;
+        background-image: url(flag.png);
+        background-position: left; 
+        background-repeat: no-repeat; 
+        background-size: 150px 150px;
+        padding-left: 175px;
+        padding-right: 50px;
+    }
+
+    #kanu h2 {
+        font-family: 'UnifrakturCook', cursive;
+    }
+
+    #michelle {
+        margin-right: auto;
+        background-image: url(flag.png);
+        background-position: left; 
+        background-repeat: no-repeat; 
+        background-size: 150px 150px;
+        padding-left: 175px;
+        padding-right: 50px;
+    }
+
+    #michelle h2 {
+        font-family: 'UnifrakturCook', cursive;
+    }
+
+
+
+
+/* Events PAGE */
+
+.event {
+    width: 90%;
+    font-family: 'PT Sans', sans-serif;
+    min-width: 400px;
+    padding-left: 300px;
+    margin-left: 20px;
+
+}
+
+#eventsheader h2 {
+font-family: 'UnifrakturCook', cursive;  
+margin-left: 20px; 
+font-size: 30pt;
+}
+
+.eventparagraph {
+    margin-left: 20px;
+}
+
+#stammtisch {
+    margin-right: auto;
+    background-image: url(cloud.png);
+    background-position: left; 
+    background-repeat: no-repeat; 
+    background-size: 150px 150px;
+    padding-left: 175px;
+    padding-right: 50px;
+}
+
+#stammtisch h2 {
+    font-family: 'UnifrakturCook', cursive;
+}
+
+#movies {
+    margin-right: auto;
+    background-image: url(flag.png);
+    background-position: left; 
+    background-repeat: no-repeat; 
+    background-size: 150px 150px;
+    padding-left: 175px;
+    padding-right: 50px;
+}
+
+#movies h2 {
+    font-family: 'UnifrakturCook', cursive;
+}
+
+
+#iff {
+    margin-right: auto;
+    background-image: url(flag.png);
+    background-position: left; 
+    background-repeat: no-repeat; 
+    background-size: 150px 150px;
+    padding-left: 175px;
+    padding-right: 50px;
+ }
+
+#iff h2 {
+    font-family: 'UnifrakturCook', cursive;
+    color: black;
+}
+
+
+/* IFF PAGE */
+
+.iff {
+    width: 90%;
+    font-family: 'PT Sans', sans-serif;
+    min-width: 400px;
+    margin-left: 20px;
+
+}
+
+#iffheader h2 {
+font-size: 30pt;
+font-family: 'UnifrakturCook', cursive;
+margin-left: 0;
+}
+
+#iffform h2 {
+    margin-left: 20px;
+}
+
+label {
+    display: block;
+    padding: 5px 0 5px 0;
+}
+
+input {
+    font-size: 15pt;
+    border: none;
+}
+
+input:focus {
+    outline: 3pt solid skyblue;
+
+}
+
+#textarea {
+    font-size: 15pt;
+    width: 330px;
+    height: 200px;
+    border: 1px solid grey;
+    left: 0;
+}
+
+#submit {
+    margin: 5px 0 5px 0;
+    background-color: #cd0000;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 70px;
+    color: whitesmoke;
+}
+
+form {
+    text-align: left;
+}
+
+/* Contact PAGE */
+
+.contact {
+    width: 90%;
+    font-family: 'PT Sans', sans-serif;
+    min-width: 400px;
+    margin-left: 20px;
+
+}
+
+#contactheader h2 {
+font-size: 30pt;
+font-family: 'UnifrakturCook', cursive;
+
+}
+
+label {
+    display: block;
+    padding: 5px 0 5px 0;
+}
+
+input {
+    font-size: 15pt;
+    border: none;
+}
+
+input:focus {
+    outline: 3pt solid skyblue;
+
+}
+
+#textarea {
+    font-size: 15pt;
+    width: 330px;
+    height: 200px;
+    border: 1px solid grey;
+    left: 0;
+}
+
+#submit {
+    margin: 3px 0 5px 0;
+    background-color: #cd0000;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 70px;
+    color: whitesmoke;
+}
+
+form {
+    text-align: left;
+    margin-left: 20px;
+}
