@@ -22,7 +22,9 @@ footer {
     margin: 100px auto 10px auto;
     color: #0b2754;
     clear: both;
-    width: 800px;   
+    width: 800px;  
+    font-family: "Martel", serif;
+    font-size: 11pt; 
 }
 
 /* Goes with header and navigation */
@@ -53,12 +55,16 @@ footer {
     position: absolute;
 left: 10px;
 bottom: 20px;
+font-family: "Martel Sans", sans-serif;
+
 }
 
 .phone {
     position: absolute;
     bottom: 20px;
     right: 10px;
+    font-family: "Martel Sans", sans-serif;
+  
 
 }
 
@@ -102,6 +108,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 800px;
+    font-family: "Martel", "sans serif";
 }
 
 
@@ -117,6 +124,7 @@ h1{
     width: 800px;
     border-bottom: 4px solid #0b2754;
     padding: 30px 0px 20px 0px;
+    font-family: "Martel Sans", sans-serif;
     }
 
 h2 {
@@ -124,6 +132,7 @@ color: #0b2754;
 margin-left: auto;
 margin-right: auto;
 width: 800px;
+font-family: "Martel Sans", sans-serif;
 }
 
 h3 {
@@ -131,6 +140,7 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     width: 800px;
+    font-family: "Martel Sans", sans-serif;
 }
 
 /* Homepage */
@@ -142,22 +152,12 @@ h3 {
     width: 800px;
 }
 
-.homepage p {
-    font-size: 13pt;
-}
-
-/* About Us */
-
-.aboutus p {
-    font-size: 13pt;
-}
-
 /* For sale */
 
 .lots{
     border: 2px solid black;
     width: 800px;
-    Height: 304px;
+    Height: 400px;
     position: relative;
     display: block;
     margin-left: auto;
@@ -168,12 +168,13 @@ h3 {
 .text {
     position: absolute;
     width: 50%;
-    padding: 10px;
+    padding: 5px;
    
 }
 
 .text p {
     width: 100%;
+    font-size: 11pt;
 }
 
 .lotmap {
@@ -220,8 +221,9 @@ h3 {
     margin-right: auto;
     position: absolute;
     color: #0b2754;
-    font-size: 14pt;
+    font-size: 13pt;
     padding: 10px 10px 0px 0px;
+    font-family: "Martel";
  
 }
 
@@ -231,17 +233,17 @@ h3 {
 .contact ul {
     list-style-type: none;
     padding: 0;
+
     }
 
 .contact li { 
-    padding: 8px 0px 8px 0px;
-   
+    padding: 8px 0px 8px 0px; 
   }
 
 .contact a {
     text-decoration: none;
     color: #0b2754;
-    font-size: 14pt;
+
 }
 
 .contactinforight {
@@ -436,7 +438,7 @@ right: 0;
 
 .mobile a {
        
-        font-size: 16px;
+        font-size: 18px;
         color: white;
         text-align: center;
         padding: 14px 16px;
@@ -458,6 +460,7 @@ right: 0;
         font-family: inherit; 
         margin: 0;
         width: 100%;
+        Font-size: 16pt;
       }
       
     .mobile a:hover, .dropdown:hover .dropbutton {
@@ -495,7 +498,7 @@ right: 0;
 
 .lots {
     width: 100%;
-    min-width: 450px;
+    min-width: 475px;
 }
 
 .text {
