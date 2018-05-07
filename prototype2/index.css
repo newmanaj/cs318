@@ -520,18 +520,20 @@ iframe {
     /* Contact */
  .all {
      width: 100%;
-     min-width: 380px;
+     min-width: 400px;
+     height: 730px;
  }
     
 .contact {
     width: 100%;
     display: block;
+
 }
 
 .contactinforight {
     width: 100%;
    display: block;
-   margin-top: 260px;
+   bottom: 0;
 }
 
 
