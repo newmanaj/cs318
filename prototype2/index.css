@@ -490,6 +490,22 @@ right: 0;
 .image {
     width: 95%;
 }
+
+/* For Sale */
+
+.lots {
+    width: 100%;
+    min-width: 450px;
+}
+
+.text {
+    width: 50%;
+}
+
+iframe {
+    width: 50%;
+}
+
 /* Photo Gallery */
 
       .container {
@@ -502,12 +518,21 @@ right: 0;
 
 
     /* Contact */
-    .contactinforight {
-        display: none;
-    }
-      
-    .contactinfoleft {
-          
-        width: 100%;
-    }
+ .all {
+     width: 100%;
+     min-width: 380px;
+ }
+    
+.contact {
+    width: 100%;
+    display: block;
+}
+
+.contactinforight {
+    width: 100%;
+   display: block;
+   margin-top: 260px;
+}
+
+
     }
