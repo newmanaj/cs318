@@ -312,6 +312,7 @@ right: 0;
 .slides img {
     width: 100%;
     position: relative;
+    max-height: 850px;
 }
 
 .back, .next {
