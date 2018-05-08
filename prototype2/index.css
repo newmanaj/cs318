@@ -153,7 +153,7 @@ h3 {
 .lots{
     border: 2px solid black;
     width: 800px;
-    Height: 400px;
+    Height: 450px;
     position: relative;
     display: block;
     margin-left: auto;
@@ -494,7 +494,6 @@ right: 0;
 
 .lots {
     width: 100%;
-    min-width: 475px;
 }
 
 .text {
@@ -540,4 +539,10 @@ iframe {
 }
 
 
+    }
+
+    @media(max-width: 400px) {
+         body {
+            min-width: 400px;
+        }
     }
